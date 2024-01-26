@@ -1,9 +1,8 @@
-var name = "Banti Kumar";
-var name = "Aman Burnwal";
-
-let rool = 1;
-//let rool = 2; // throws error cause you can't redecleare
-
-const a = 3;
-// a = 5;
-console.log(a);
+//console.log("heello");
+console.log("Hello this is my fist javascript code line\n");
+a = 6;
+if (a == 5) {
+    console.log("printing 5");
+} else {
+    console.log("5 is not");
+}
