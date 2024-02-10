@@ -1,10 +1,25 @@
+let array = ["Aman", "Burnwal", "Hello", "How", "Are", "you"];
 
-const numbers = ['a', 'b', 'c', 'd'];
+//First way of using forEach
+//Arrow function
+/*
+(element, index) => {
+  console.log(element);
+  console.log(index);
+}
 
+function printElements(element, index){
+	console.log(element);
+  console.log(index);
+}
+*/
 
-
-numbers.forEach((elments, index ) => {
+(element, index) => {
+    console.log(element);
     console.log(index);
-    console.log(elments);
-})
+}
 
+function printElements(element, index){
+    console.log(element);
+    console.log(index);
+}
